@@ -10,11 +10,13 @@
 
 ## Test
 ```sh
+export GOPATH=$GOPATH:/path/to/repo/go
 go test
 ```
 
 ## Benchmarks
 ```sh
+export GOPATH=$GOPATH:/path/to/repo/go
 go test -bench
 ```
 
